@@ -30,6 +30,7 @@ class QuestionRequest(BaseModel):
 app = FastAPI()
 
 origins = [
+    "http://localhost:5173" ,
     "*"  # Use "*" to allow all origins — not recommended for production
 ]
 
